@@ -2,7 +2,8 @@
 lock "~> 3.17.3"
 
 set :application, "my_app_name"
-set :repo_url, "git@github.com:meblok/hogarts.git"
+set :repo_url, "git@github.com:meblok/howarts.git"
+set :branch, 'main'
 set :user, 'deploy'
 set :ssh_options, {
     forward_agent: true,
