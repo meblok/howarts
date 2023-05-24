@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.3"
 
-set :application, "my_app_name"
+set :application, "myapp"
 set :repo_url, "git@github.com:meblok/howarts.git"
 set :branch, 'main'
 set :user, 'deploy'
