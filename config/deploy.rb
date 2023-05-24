@@ -3,7 +3,12 @@ lock "~> 3.17.3"
 
 set :application, "my_app_name"
 set :repo_url, "git@github.com:meblok/hogarts.git"
-
+set :user, 'deploy'
+set :ssh_options, {
+    forward_agent: true,
+    auth_methods: ['publickey'],
+    keys: ['~/.ssh/aws_inforcap.pem']
+}
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
