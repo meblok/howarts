@@ -69,7 +69,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
-end
+end 
 
 gem "faker"
 gem 'capistrano', '~> 3.11'
