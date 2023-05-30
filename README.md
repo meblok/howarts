@@ -1,5 +1,5 @@
 # README
-Proyecto para deploy en  ************ http://16.170.233.116/  y si quisiera otro link pongo [@meblok](https://github.com/meblok) 
+Proyecto para deploy en  ************ http://13.48.193.231/  y si quisiera otro link pongo [@meblok](https://github.com/meblok) 
 
 
 
